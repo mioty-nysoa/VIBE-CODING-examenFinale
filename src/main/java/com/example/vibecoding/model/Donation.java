@@ -3,15 +3,15 @@ package com.example.vibecoding.model;
 import java.math.BigDecimal;
 import java.time.Instant;
 
-public class Donnation extends CashFlow {
+public class Donation extends CashFlow {
     private String comment;
 
-    public Donnation() {
+    public Donation() {
         super();
         this.setType("DONNATION");
     }
 
-    public Donnation(String id, Instant createdAt, BigDecimal amount, String userId, String comment) {
+    public Donation(String id, Instant createdAt, BigDecimal amount, String userId, String comment) {
         super(id, createdAt, amount, userId, "DONNATION");
         this.comment = comment;
     }
