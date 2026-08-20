@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.vibecoding.model;
 
 public enum ExpenseFrequency {
     NONE,

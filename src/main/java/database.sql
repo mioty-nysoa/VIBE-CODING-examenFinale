@@ -17,6 +17,7 @@ CREATE TABLE users (
     phone VARCHAR(50)
 );
 
+
 -- 4. Table pour la classe concrète Donnation (contient les attributs hérités de CashFlow + comment)
 CREATE TABLE donnations (
     id VARCHAR(50) PRIMARY KEY,
